@@ -8,7 +8,7 @@ import cgi
 
 access_key = ''
 secret_key = ''
-
+#enter your AWS account access key and secret key
 session = boto3.Session(
     aws_access_key_id=access_key,
     aws_secret_access_key=secret_key,
